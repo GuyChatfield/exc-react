@@ -128,13 +128,6 @@ src/
 
 Each component has a co-located CSS file (e.g., `PackageModal.tsx` → `PackageModal.css`).
 
-**Color Palette:**
-
-- Accent: `#FFE900` (yellow)
-- Background: `#111111` (dark), `#1a1a1a` (cards)
-- Text: `#FFFFFF` (primary), `#888888` (muted)
-- Borders: `#333333`
-
 ## API Integration
 
 The frontend communicates with a Spring Boot API:
