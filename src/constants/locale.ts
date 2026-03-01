@@ -1,10 +1,10 @@
 import type { LocaleOption } from "../types/locale";
 
 export const LOCALE_OPTIONS: LocaleOption[] = [
-  { label: "UK", locale: "en-GB", currency: "GBP" },
-  { label: "US", locale: "en-US", currency: "USD" },
-  { label: "France", locale: "fr-FR", currency: "EUR" },
-  { label: "Japan", locale: "ja-JP", currency: "JPY" },
+  { label: "GBP (£)", locale: "en-GB", currency: "GBP" },
+  { label: "USD ($)", locale: "en-US", currency: "USD" },
+  { label: "EUR (€)", locale: "fr-FR", currency: "EUR" },
+  { label: "JPY (¥)", locale: "ja-JP", currency: "JPY" },
 ];
 
 export const DEFAULT_LOCALE = LOCALE_OPTIONS[1]; // US

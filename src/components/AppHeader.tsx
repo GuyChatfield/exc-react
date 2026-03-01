@@ -20,7 +20,7 @@ export default function AppHeader({
       <h1 className="app-title">Package Manager</h1>
       <div className="locale-actions">
         <span style={{ marginRight: "0.5rem" }} className="signed-in-text">
-          Currently located in:{" "}
+          Currency:{" "}
         </span>
         <select
           className="locale-select"
