@@ -1,0 +1,90 @@
+.modal-content {
+  width: min(95%, 700px);
+  min-height: 60vh;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 14px;
+  border: 1px solid #333333;
+  background: #1a1a1a;
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.modal-content h2 {
+  margin: 0 0 1rem;
+  color: #FFFFFF;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  background: #222222;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.modal-content button:hover {
+  background: #333333;
+  border-color: #FFE900;
+}
+
+.all-packages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.all-packages-item {
+  padding: 0.75rem;
+  border: 1px solid #333333;
+  background: #111111;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.package-header-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.all-packages-item strong {
+  color: #FFFFFF;
+}
+
+.package-owner {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+.package-description {
+  font-size: 0.85rem;
+  color: #888888;
+  margin: 0.35rem 0 0;
+}
+
+.package-products-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  color: #888888;
+}
+
+.package-products-list li {
+  margin-bottom: 0.2rem;
+}
+
+.all-packages-item .package-total {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  border-top: none;
+  padding-top: 0;
+}

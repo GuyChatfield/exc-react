@@ -1,0 +1,119 @@
+.packages-nav-pane {
+  text-align: left;
+  padding: clamp(0.8rem, 1.6vw, 1rem);
+  border-radius: 14px;
+  border: 1px solid #333333;
+  background: #1a1a1a;
+  min-height: clamp(340px, 48vh, 420px);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.packages-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.packages-nav-pane h3 {
+  margin: 0;
+  color: #888888;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.view-all-btn {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  background: #222222;
+  border: 1px solid #333333;
+  color: #888888;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.view-all-btn:hover {
+  background: #333333;
+  color: #FFFFFF;
+  border-color: #FFE900;
+}
+
+.packages-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
+.packages-nav-list li {
+  min-width: 0;
+}
+
+.package-nav-item {
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border: 1px solid #333333;
+  background: #111111;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 0.65rem 0.75rem;
+}
+
+.package-nav-item:hover {
+  border-color: #FFE900;
+  background: #1a1a1a;
+}
+
+.package-name {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.package-actions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.25rem;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+  border: none;
+  background: transparent;
+  color: #888888;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.icon-btn:hover {
+  background: #333333;
+  color: #FFE900;
+}
+
+.empty-nav-item {
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 980px) {
+  .packages-nav-pane {
+    min-height: unset;
+  }
+}

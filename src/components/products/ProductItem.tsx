@@ -9,7 +9,7 @@ const ProductItem = ({ product }: ProductItemProps) => {
   const formattedPrice = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
-  }).format(product.usdPrice);
+  }).format(product.price);
 
   return (
     <article style={styles.card}>

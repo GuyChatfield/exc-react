@@ -1,0 +1,63 @@
+.edit-package-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+
+.edit-package-form input[type="text"] {
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  background: #111111;
+  color: #FFFFFF;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edit-package-form input[type="text"]:focus {
+  outline: none;
+  border-color: #FFE900;
+  box-shadow: 0 0 0 3px rgba(255, 233, 0, 0.15);
+}
+
+.edit-package-form input[type="text"]::placeholder {
+  color: #666666;
+}
+
+.edit-package-form .product-selector {
+  margin-top: 0.25rem;
+}
+
+.edit-package-form .product-options {
+  gap: 0.65rem;
+}
+
+.edit-package-form .product-option input[type="number"] {
+  width: 60px;
+  padding: 0.5rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  background: #1a1a1a;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+.edit-package-form .product-option input[type="number"]:focus {
+  outline: none;
+  border-color: #FFE900;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #2a2a2a;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 0.75rem 1rem;
+}
